@@ -1,0 +1,17 @@
+body {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    gap: 10px;
+}
+
+header {
+    grid-column: 1/4;
+    /* Add styles for your header */
+}
+
+.left-sidebar, .main-content, .right-sidebar {
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+
+/* Add styles for individual components inside each section */
